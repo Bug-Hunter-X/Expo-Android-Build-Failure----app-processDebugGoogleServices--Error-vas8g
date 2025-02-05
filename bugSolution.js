@@ -1,0 +1,4 @@
+The solution lies in correctly configuring your Firebase project and placing the `google-services.json` file in the appropriate directory within your Expo project. Make sure that the `google-services.json` is correctly downloaded from your Firebase project and placed in the `android/app` directory.
+
+Ensure that the SHA-1 fingerprint of your app's signing keystore is registered in your Firebase project settings. Verify that all Firebase services used in your app are configured correctly in both your code and in your Firebase project.  Double check for typos and consistency in the configuration between the two.
+If using EAS, verify that you are providing the required configuration within the EAS build process. 
